@@ -1,0 +1,34 @@
+Ecrivez un programme en c++ qui aide la direction à gérer les EPFLiens (les personnes qui
+fréquentent l'EPFL).
+Votre programme doit être orienté objets et sans duplication de code inutile.
+On aimerait stocker,dans un seul tableau, des informations sur 4 catégories d'EPFLiens:
+Les secrétaires.
+Chaque secrétaire est décrit(e) par son nom, l'année où il/elle est arrivée à l'EPFL, ainsi que par le
+nom de son laboratoire ou institut. Chaque secréraire a un salaire.
+Les enseignants.
+Chaque enseignant est décrit par son nom, l'année où il est arrivé à l'EPFL, le nom de son laboratoire
+ou institut, le nom de la section dans laquelle il enseigne (nous supposons que chaque enseignant
+s'occupe d'une seule section). Chaque enseignant a un salaire.
+Les étudiants d'échange.
+Chaque étudiant d'échange est décrit par son nom, l'année où il est arrivé à l'EPFL, le nom de la
+section dans laquelle il est inscrit, ainsi que le nom de son université d'origine.
+Les étudiants réguliers, sont ceux qui suivent la totalité de leurs études à l'EPFL.
+Chaque étudiant régulier est décrit par son nom, l'année où il est arrivé à l'EPFL, le nom de la section
+dans laquelle il est inscrit et son résultat au propé I.
+Pour les étudiants en 1ère année, une estimation de son résultat au propé I est utilisée. Remplissez
+votre tableau par autant d'objets (personnes) que vous voulez.
+Voici quelques exemples:
+L'étudiant régulier "Gaston Peutimide", inscrit en section de systèmes de communication en 2020.
+Son résultat au propé I est 6.0.
+L'étudiant régulier "Yvan Rattrapeur", inscrit en section de systèmes de communication en 2016. Il a
+obtenu un résultat de 2.5 au propé I.
+L'étudiant d'échange "Björn Borgue", inscrit en section d'informatique en 2018. Son université
+d'origine s'appelle "KTH".
+L'enseignant "Mathieu Matheu", engagé au Laboratoire des Mathématiques Extrêmement Pures
+(LMEP) en 2015. Il a un salaire de 10000 francs par mois et il enseigne à la section de physique.
+La secrétaire "Sophie Scribona", engagée au Laboratoire des Machines à Taper (LMT) en 2005. Elle
+a un salaire de 5000 francs par mois.
+Prévoyez les opérations suivantes dans votre programme: Affichage du nombre d'EPFLiens,
+dont le nombre d'étudiants.
+Affichage du nombre d'années moyen pendant lesquelles les personnes enregistrées ont fréquenté
+l'EPFL. Affichage des informations enregistrées sur chaque personne.
